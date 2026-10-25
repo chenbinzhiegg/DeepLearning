@@ -1,8 +1,9 @@
 # sigmoid 图形
 import numpy as np
 import matplotlib.pylab as plt
-from functions import sigmoid
 
+def sigmoid(x):
+    return 1/(1+np.exp(-x))
 
 x=np.arange(-5,5,0.001)
 y=sigmoid(x)
