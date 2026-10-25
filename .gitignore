@@ -1,0 +1,43 @@
+# macOS 系统文件
+.DS_Store
+.DS_Store?
+._*
+__MACOSX/
+.Spotlight-V100
+.Trashes
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+.eggs/
+pip-log.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 数据集与模型权重（可重新下载/生成，且体积较大）
+*.pkl
+*.pth
+*.pt
+*.h5
+*.gz
+*.npz
+*.npy
+deep-learning-form-scratch/dataset/
+
+# 日志与本地配置
+*.log
+.env
