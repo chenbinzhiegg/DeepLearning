@@ -20,7 +20,7 @@ train_loss_list = []
 train_acc_list = []
 test_acc_list = []
 
-iter_per_epoch = max(train_size / batch_size, 1)
+iter_per_epoch = max(train_size / batch_size, 1)    # 每个epoch的迭代次数
 
 for i in range(iters_num):
     batch_mask = np.random.choice(train_size, batch_size)
